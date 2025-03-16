@@ -1,0 +1,90 @@
+.homepage-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .homepage-content {
+    text-align: center;
+  }
+  
+  .homepage-title {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .homepage-subtitle {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .room-id-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .room-id-input {
+    padding: 10px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 220px; /* Adjusted width to fit with button */
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .generate-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .generate-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .call-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .call-button {
+    padding: 15px 30px;
+    margin: 0 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .call-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .call-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .note {
+    font-size: 14px;
+    color: #888;
+    margin-top: 20px;
+  }
+  
